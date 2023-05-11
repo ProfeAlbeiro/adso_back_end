@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+main, footer{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.logo{
+    flex: 0 0 25%;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.navega{
+    flex: 0 0 60%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+.ingreso{
+    flex: 0 0 15%;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 5px;
+}
+form{
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form-header,
+.form-footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center; 
+    padding: 5px;
+}
+.form-control{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 5px;
+}
+label{    
+    padding: 5px;    
+}
+input{
+    flex: 1;
+    padding: 5px;
+}
+.form-footer{
+    margin-top: 10px;
+}

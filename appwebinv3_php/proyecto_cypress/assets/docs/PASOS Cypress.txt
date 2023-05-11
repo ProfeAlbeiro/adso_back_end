@@ -1,0 +1,43 @@
+PASO 1:
+
+Instalar o Actualizar Node.js
+
+Verificar si está instalado con:
+node -v
+
+Se instala con instalador de Windows, buscar en el navegador el link de descarga nodejs.org
+
+PASO 2:
+
+Nos paramos en la carpeta del proyecto.
+y creamos el package.json con el comando:
+
+npm init -y
+
+PASO 3:
+
+Instalar Cypress
+comando:
+
+npm i --save-dev cypress
+
+PASO 4:
+
+modificar el package.json
+en la sección de scripts con la siguiente propiedad:
+"cypress:open": "cypress open"
+
+PASO 5:
+
+Poner a correr cypress para ver la inerfaz gráfica del programa de pruebas.
+Con el siguiente comando:
+
+npm run cypress:open
+
+
+NOTA:
+
+para la portabilidad de la instalación de dependecnias dejar el archivo package.json y al momento de clonarlo
+nos ubicamos en la carpeta ya clonada y damos el siguiente comando:
+npm install
+

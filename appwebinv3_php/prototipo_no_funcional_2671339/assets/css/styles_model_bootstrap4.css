@@ -1,0 +1,14 @@
+nav{
+    height: 50px;
+}
+.navbar{
+    background: red!important;
+}
+header{
+    height: 600px;
+}
+@media (max-width: 992px) {
+    .logo{
+        height: 100px;
+    }
+}

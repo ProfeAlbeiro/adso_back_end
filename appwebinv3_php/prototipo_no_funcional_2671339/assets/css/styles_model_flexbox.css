@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* color blanco */
+.color-blanco{
+    background: #FFF;
+}
+/* Color gris claro */
+.color-gris-cla{
+    background: #BBB;
+}
+/* Color gris oscuro */
+.color-gris-osc{
+    background: #777;
+}
+/* Color negro */
+.color-negro{
+    background: #000;
+}
+.borde{
+    border: 1px solid #CCC;
+}
+.titulo{
+    width: 100%;
+    height: 70px;
+}
+/* Contenedor */
+.contenedor{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 1280px;
+    width: 95%;    
+    margin: auto;
+}
+nav{    
+    display: flex;
+    flex-flow: row wrap;
+    height: 50px;
+}
+/* Logo */
+.logo{    
+    flex: 20%;    
+}
+/* Menú */
+.menu{
+    flex: 65%;    
+}
+/* Ingreso */
+.ingreso{
+    flex: 15%;    
+}
+header{
+    height: 600px;
+}
+section{    
+    height: 600px;
+}
+footer{    
+    height: 70px;
+}
+@media (max-width: 992px) {
+    /* Contenedor */
+	.contenedor{
+		width: 100%;
+	} 
+    /* Navegador */
+	nav{		
+		height: 150px;		
+	}
+	.logo{		
+		height: 100px;
+		flex: 100%;
+	}
+	.menu, .ingreso{
+		height: 50px;		
+	}
+	.menu{
+		flex: 80%;		
+	}
+	.ingreso{
+		flex: 20%;
+	}
+}
+@media (max-width: 768px) {
+    /* Navegador */
+	nav{
+		height: auto;
+		flex-flow: column wrap;
+	}
+	.logo, .menu, .ingreso{
+		height: 50px;
+		flex: auto;
+	}
+}

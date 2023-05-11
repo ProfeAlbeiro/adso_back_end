@@ -1,0 +1,26 @@
+.body-pg{
+	overflow-y: hidden!important;
+	overflow-x: hidden!important;
+}
+/* Clases especiales */
+.titulo a{
+	font-size: 0.8em;
+}
+/* Área Principal */
+.section-pg{	
+	height: 56vh;
+	overflow-y: scroll!important;
+	overflow-x: hidden!important;
+}
+/* Gráficos */
+#chartContainer{
+	height: 97%;
+}
+/* Tablet */
+/*@media only screen and (max-width: 576px) {
+	section{
+		height: 79vh;
+		overflow-y: scroll!important;
+		overflow-x: hidden!important;
+	}
+}*/
